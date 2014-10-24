@@ -1,0 +1,37 @@
+* {margin:0;padding:0}
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+.fleft {float:left}
+.fright  {float:right}
+.fcenter {float:none;margin:0 auto;width:96%}
+.fclear {clear:both}
+body {font-family:Arial,Helvetica,sans-serif;font-size:12px;background:#101010;color:#fff}
+h1 {font-size:30px;color:#fff;font-weight:inherit}
+#container {width:1000px;background:#c38b30;margin:0 auto;border-left:1px solid #904b0f;border-right:1px solid #904b0f} 
+#header {width:1000px;height:331px;background:url(../images/backgroundHeader.jpg) no-repeat left top} 
+#header h1 {padding:272px 0 0 29px}
+#header p {padding:0 0 0 29px}
+#header a, #mainContent a, #footer a {color:#fea80e;text-decoration:underline}
+#header a:hover, #mainContent a:hover, #footer a:hover {color:#fff;text-decoration:none}
+#allContent {background:#c38b30 url(../images/siteBackground.jpg) repeat-x;padding:29px}
+#sidebar1 {float:left;width:228px}
+#sidebar1 .sideContainer ul, #sidebar1 .sideContainer p {background:#372b17;padding:15px 15px}
+#sidebar1 .sideContainer li {list-style:none;background:#372b17;padding:4px 0}
+#sidebar1 .sideContainer li a {background:url(../images/p.jpg) no-repeat left 3px;padding-left:25px;color:#fff}
+#sidebar1 .sideContainer li a:hover {background:url(images/p.jpg) no-repeat 10px 3px;padding-left:35px;color:#fea80e;text-decoration:none}
+.sideConTitle {background:#4d2b0b;padding:10px}
+#mainContent {margin:0 0 0 258px} 
+#mainContent b {color:#fea80e}
+#mainContent p {margin:20px 0}
+#footer {background:#020201 url(../images/footerBackground.jpg) repeat-x;height:66px}
+#footer p {text-align:center;padding-top:12px} 
+.clearfloat {clear:both;height:0;font-size:1px;line-height:0}
+/* begin main menu */
+#navcontainer {padding:20px 0;background:url(../images/menuBackground.jpg) no-repeat left top;width:942px;height:70px}
+ul#navlist {margin-left:0;padding-left:0;white-space:nowrap;text-align:center}
+#navlist li {display:inline;list-style-type:none;height:70px}
+#navlist a {padding:21px 30px}
+#navlist a:link, #navlist a:visited {color:#fff;text-decoration:none;font-size:24px}
+#navlist a:hover {background:url(../images/menuActive.jpg) repeat-x;text-decoration:none;font-size:24px;color:#fea80e}
+#navlist #active a {background:url(../images/menuActive.jpg) repeat-x;text-decoration:none;font-size:24px;color:#fea80e}
+.img{margin-left: 60px;}
+/* end main menu */
